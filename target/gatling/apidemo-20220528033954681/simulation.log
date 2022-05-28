@@ -1,0 +1,4 @@
+RUN	com.gatling.tests.APIDemo	apidemo	1653709194681	11	3.6.1
+USER	Get Request	START	1653709196538
+REQUEST		Get Request	1653709196590	1653709196760	KO	jsonPath($.data.first_name).find.is(janet), but actually found Janet
+USER	Get Request	END	1653709196957

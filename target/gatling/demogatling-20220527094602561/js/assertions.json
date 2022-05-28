@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.test.DemoGatling",
+  "simulationId": "demogatling",
+  "start": 1653644762561,
+  "description": "RampUp Mode",
+  "scenarios": ["Users", "Super"],
+  "assertions": [
+
+  ]
+}

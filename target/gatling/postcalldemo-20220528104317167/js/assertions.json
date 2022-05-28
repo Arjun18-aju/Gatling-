@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.PostCallDemo",
+  "simulationId": "postcalldemo",
+  "start": 1653734597167,
+  "description": "22",
+  "scenarios": ["Post Request"],
+  "assertions": [
+
+  ]
+}

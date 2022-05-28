@@ -1,0 +1,4 @@
+RUN	com.gatling.tests.PostCallDemo	postcalldemo	1653734637334	33	3.6.1
+USER	Post Request	START	1653734639003
+REQUEST		Post Request	1653734639055	1653734639594	KO	jsonPath($.name).find.is(arjun), but actually found Arjun
+USER	Post Request	END	1653734639757
