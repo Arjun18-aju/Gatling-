@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.CorrelationDemo",
+  "simulationId": "correlationdemo",
+  "start": 1653743162170,
+  "description": "test",
+  "scenarios": ["GO REST"],
+  "assertions": [
+
+  ]
+}

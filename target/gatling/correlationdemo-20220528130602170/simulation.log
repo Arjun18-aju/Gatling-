@@ -1,0 +1,5 @@
+RUN	com.gatling.tests.CorrelationDemo	correlationdemo	1653743162170	test	3.6.1
+USER	GO REST	START	1653743163877
+REQUEST		Get Request	1653743163916	1653743164122	OK	 
+REQUEST		Check Request With ID	1653743164245	1653743164302	KO	jsonPath($.name).find.is(Girish Tagoe IV), but actually found Girish Tagore IV
+USER	GO REST	END	1653743164317

@@ -1,0 +1,5 @@
+RUN	com.gatling.tests.CorrelationDemo	correlationdemo	1653743045184	test	3.6.1
+USER	GO REST	START	1653743046998
+REQUEST		Get Request	1653743047034	1653743047284	KO	jsonPath($.id[0]).find.exists, found nothing
+ERROR	Check Request With ID: Failed to build request: No attribute named 'ID' is defined 	1653743047416
+USER	GO REST	END	1653743047431

@@ -26,6 +26,12 @@
       <artifactId>gatling-app</artifactId>
       <version>${gatling.version}</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.gatling/gatling-maven-plugin -->
+    <dependency>
+      <groupId>io.gatling</groupId>
+      <artifactId>gatling-maven-plugin</artifactId>
+      <version>${gatling-maven-plugin.version}</version>
+    </dependency>
     <dependency>
       <groupId>io.gatling</groupId>
       <artifactId>gatling-recorder</artifactId>
